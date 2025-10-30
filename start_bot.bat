@@ -1,0 +1,9 @@
+@echo off
+echo 🚀 جاري تشغيل بوت الوسائط المتقدم...
+echo 📦 تثبيت المكتبات المطلوبة...
+pip install -r requirements.txt
+
+echo 🔧 تشغيل البوت...
+python media_bot.py
+
+pause
